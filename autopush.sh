@@ -13,7 +13,7 @@ if [ ${value} = $word ];then
     echo -e "\033[1;32mType commit message\033[0m"
     read commit
     git commit -m $commit
-    git push origin masterh
+    git push origin master
     echo -e "\n\t\t\033[1;32mDone!\033[0m\n"
 
 elif [ ${value} != $word ];then

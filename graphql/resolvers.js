@@ -1,6 +1,15 @@
+const Keulee = {
+    name: "Keulee",
+    age: 31,
+    gender: "female"
+};
+
 const resolvers = {
     Query: {
-        name:() => "keulee"
+        person:() => Keulee
+        // person: function() {
+        //     return Keulee
+        // }
     }
 };
 
