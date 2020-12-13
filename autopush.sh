@@ -12,7 +12,7 @@ if [ ${value} = $word ];then
     git status
     echo -e "\033[1;32mType commit message\033[0m"
     read commit
-    git commit -m $commit
+    git commit -m "$commit"
     git push
     echo -e "\n\t\t\033[1;32mDone!\033[0m\n"
 
