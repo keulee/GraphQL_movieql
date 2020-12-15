@@ -7,7 +7,7 @@ const resolvers = {
         //     return Keulee
         // }
         people: () => people,
-        person: () => getById()
+        person: (_, { id }) => getById(id)
     }
 };
 
